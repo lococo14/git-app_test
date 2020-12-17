@@ -1,4 +1,3 @@
 class TestsController < ApplicationController
-def index
-end
+  root 'posts#index'
 end
